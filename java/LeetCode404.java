@@ -16,6 +16,9 @@ public class Solution {
         return sum;
     }
     public void sum(TreeNode root,int sign){
+        //sign  0代表 初始
+        //1 代表左
+        //2 代表右
        if(root.left==null&&root.right==null){
            if(sign==1){
                sum+=root.val;
