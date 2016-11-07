@@ -24,7 +24,7 @@ public class Solution {
 		return true;
 	}
 }
-//·½·¨¶ş  Ğ§ÂÊ½Ï¸ß
+//ç¬¬äºŒç§æ–¹æ³•  æ•ˆç‡è¾ƒé«˜
 public class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
 	int[] arr = new int[26];
