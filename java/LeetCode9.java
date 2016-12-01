@@ -9,10 +9,8 @@ public class Solution {
             len++;
             temp/=10;
         }
-        return test(x,len);
-    }
-    public boolean test(int x,int len){
-        if(len<=1){
+        while(true){
+            if(len<=1){
             return true;
         }
         else if(len==2){
@@ -26,6 +24,5 @@ public class Solution {
         }
         x=(int)(x%Math.pow(10,len-1))/10;
         len-=2;
-        return true&test(x,len);
+        }
     }
-}
